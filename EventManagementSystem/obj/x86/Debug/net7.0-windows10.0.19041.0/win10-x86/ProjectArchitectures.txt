@@ -1,0 +1,1 @@
+E:\EventManagementSystem\EventManagementSystem\EventManagementSystem.csproj;x86

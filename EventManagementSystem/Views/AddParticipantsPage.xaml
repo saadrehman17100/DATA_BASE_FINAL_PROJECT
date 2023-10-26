@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="EventManagementSystem.Views.AddParticipantsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<Grid x:Name="ContentArea">
+		<!-- Header -->
+		<StackPanel Background="#FF1E90FF" Padding="20" Margin="0 0 0 20">
+			<TextBlock Text="Add Participants Page" FontSize="24" FontWeight="Bold" Foreground="White" />
+		</StackPanel>
+		<StackPanel Background="#FF1E90FF" Padding="20" Margin="0 0 0 20">
+			<TextBlock Text="Add Participants" FontSize="24" FontWeight="Bold" Foreground="White" />
+		</StackPanel>
+
+		<!-- Main Content -->
+		<ScrollViewer Margin="20">
+			<StackPanel>
+
+
+				<!-- Search Events -->
+				<StackPanel Margin="0 40 0 20">
+					<TextBlock Text="Search Event" FontSize="20" FontWeight="Bold" Margin="0 0 0 10" />
+
+					<StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+						<TextBlock Text="Event Name:" Margin="0 0 10 0" Width="150" />
+						<TextBox Width="200" Height="Auto" />
+					</StackPanel>
+					<Button Content="Search" Width="150" Background="#0a72cc" Foreground="White" Margin="0 10 0 0" />
+
+
+					<!-- Add Participants -->
+					<StackPanel Margin="0 40 0 20">
+						<TextBlock Text="Add Participant Detail" FontSize="20" FontWeight="Bold" Margin="0 0 0 10" />
+
+						<StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+							<TextBlock Text="Event Name:" Margin="0 0 10 0" Width="150" />
+							<TextBox Width="200" Height="Auto" />
+						</StackPanel>
+
+						<StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+							<TextBlock Text="Participant Name:" Margin="0 0 10 0" Width="150" />
+							<TextBox Width="200" Height="Auto" />
+						</StackPanel>
+
+						<StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+							<TextBlock Text="Participant Email:" Margin="0 0 10 0" Width="150" />
+							<TextBox Width="200" Height="Auto" />
+						</StackPanel>
+						<Button Content="Add Participant" Width="150" Background="#0a72cc" Foreground="White" Margin="0 10 0 0" />
+
+
+						<!-- Registration Confirmation and Reminders -->
+						<StackPanel Margin="0 40 0 20">
+							<TextBlock Text="Registration Confirmation and Reminders" FontSize="20" FontWeight="Bold" Margin="0 0 0 10" />
+
+							<StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+								<TextBlock Text="Event Name:" Margin="0 0 10 0" Width="150" />
+								<TextBox Width="200" Height="Auto" />
+							</StackPanel>
+
+							<StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+								<TextBlock Text="Participant Email:" Margin="0 0 10 0" Width="150" />
+								<TextBox Width="200" Height="Auto" />
+							</StackPanel>
+							<Button Content="Send Confirmation" Width="150" Background="#0a72cc" Foreground="White" Margin="0 10 0 0" />
+
+							<Button Content="Send Reminder" Width="150" Background="#0a72cc" Foreground="White" Margin="0 10 0 0" />
+
+						</StackPanel>
+					</StackPanel>
+				</StackPanel>
+			</StackPanel>
+		</ScrollViewer>
+	</Grid>
+</Page>

@@ -1,0 +1,12 @@
+E:\EventManagementSystem\EventManagementSystem.Core\bin\x86\Debug\net7.0\EventManagementSystem.Core.deps.json
+E:\EventManagementSystem\EventManagementSystem.Core\bin\x86\Debug\net7.0\EventManagementSystem.Core.dll
+E:\EventManagementSystem\EventManagementSystem.Core\bin\x86\Debug\net7.0\EventManagementSystem.Core.pdb
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\EventManagementSystem.Core.csproj.AssemblyReference.cache
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\EventManagementSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\EventManagementSystem.Core.AssemblyInfoInputs.cache
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\EventManagementSystem.Core.AssemblyInfo.cs
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\EventManagementSystem.Core.csproj.CoreCompileInputs.cache
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\EventManagementSystem.Core.dll
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\refint\EventManagementSystem.Core.dll
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\EventManagementSystem.Core.pdb
+E:\EventManagementSystem\EventManagementSystem.Core\obj\x86\Debug\net7.0\ref\EventManagementSystem.Core.dll

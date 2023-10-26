@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="EventManagementSystem.Views.ParticipantManagementPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<Grid>
+		<!-- Header -->
+		<StackPanel Background="#FF1E90FF" Padding="20">
+			<TextBlock Text="Participant Management Page" FontSize="24" FontWeight="Bold" Foreground="White" />
+		</StackPanel>
+		<StackPanel Background="#FF1E90FF" Padding="20">
+			<TextBlock Text="View and Manage Participant Information" FontSize="16" Foreground="White" />
+		</StackPanel>
+
+		<!-- Main Content -->
+		<StackPanel Margin="20">
+			<!-- User View -->
+			<StackPanel x:Name="UserView" Margin="0 40 0 20" Visibility="Visible">
+				<TextBlock Text="Your Registration Status" FontSize="20" FontWeight="Bold" Margin="0 0 0 10" />
+				<!-- Display user-specific participant information here -->
+				<!-- For example, show their registered events, registration status, payment details, etc. -->
+			</StackPanel>
+
+			<!-- Admin View -->
+			<StackPanel x:Name="AdminView" Margin="0 20 0 20" Visibility="Collapsed">
+				<TextBlock Text="Admin Management" FontSize="20" FontWeight="Bold" Margin="0 0 0 10" />
+				<!-- Admins can manage participant information, registration status, payments, and attendance -->
+				<!-- You can include data grids, controls, and actions to manage participants -->
+			</StackPanel>
+		</StackPanel>
+	</Grid>
+</Page>

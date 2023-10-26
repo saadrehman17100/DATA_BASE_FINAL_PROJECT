@@ -1,0 +1,14 @@
+App.xbf
+MainWindow.xbf
+Styles\FontSizes.xbf
+Styles\TextBlock.xbf
+Styles\Thickness.xbf
+Views\AddParticipantsPage.xbf
+Views\EventCreationPage.xbf
+Views\HomePage.xbf
+Views\LoginPage.xbf
+Views\ParticipantManagementPage.xbf
+Views\PastEventsPage.xbf
+Views\ReportPage.xbf
+Views\SettingsPage.xbf
+Views\ShellPage.xbf

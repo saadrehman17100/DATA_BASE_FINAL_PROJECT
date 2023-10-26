@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="EventManagementSystem.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='2' x:Name="ContentArea">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Header: Common header for all users -->
+        <StackPanel Grid.Row="0" Background="#FF1E90FF" Padding="20">
+            <TextBlock Text="Event Management System" FontSize="24" FontWeight="Bold" Foreground="White" />
+            <!-- Navigation Menu: Add your navigation menu here -->
+            <!-- User Login/Logout Options: Add login/logout options here -->
+        </StackPanel>
+
+        <!-- Main Content: Common content for all users -->
+        <ScrollViewer Grid.Row="1" Margin="20">
+            <StackPanel>
+                <!-- Participant Registration Form: Users can register for events -->
+                <TextBlock Text="Participant Registration" FontSize="20" FontWeight="Bold" Margin="0 0 0 10" />
+                <!-- Add registration form fields (name, email, event selection, etc.) -->
+                <!-- You can add TextBoxes, ComboBoxes, and Buttons for registration -->
+
+                <!-- Participant Registration List (Admins only): Admins can manage registrations -->
+                <TextBlock Text="Participant Registration List" FontSize="20" FontWeight="Bold" Margin="0 20 0 10" />
+                <ListView>
+                    <!-- Display participant registration details in a list -->
+                    <!-- Admins can view and manage participant registrations here -->
+                    <!-- Include columns for participant details and event registration details -->
+                </ListView>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
+

@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "EventManagementSystem (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "EventManagementSystem (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
