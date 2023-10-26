@@ -19,7 +19,7 @@
                    HorizontalAlignment="Left"
                    Width="16"
                    Height="16" />
-            <TextBlock x:ConnectionId='9' x:Name="AppTitleBarText"
+            <TextBlock x:ConnectionId='8' x:Name="AppTitleBarText"
                        VerticalAlignment="Center"
                        TextWrapping="NoWrap"
                        Style="{StaticResource CaptionTextBlockStyle}"
@@ -45,12 +45,12 @@
                 -->
                 <NavigationViewItem x:Uid="Shell_Login" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.LoginViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon Glyph="&#xE72E;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_Home" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.HomeViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon Glyph="&#xE80F;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 <!--<NavigationViewItem x:Uid="Shell_AdminHome" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.AdminHomeViewModel">
@@ -65,12 +65,12 @@
                 </NavigationViewItem>-->
                 <NavigationViewItem x:Uid="Shell_Report" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.ReportViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon Glyph="&#xE9F9;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem x:ConnectionId='4' x:Name="bbv" x:Uid="Shell_EventCreation" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.EventCreationViewModel">
+                <NavigationViewItem x:Uid="Shell_EventCreation" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.EventCreationViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon Glyph="&#xF763;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 <!--<NavigationViewItem x:Uid="Shell_AddParticipants" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.AddParticipantsViewModel">
@@ -80,17 +80,17 @@
                 </NavigationViewItem>-->
                 <NavigationViewItem x:Uid="Shell_ParticipantManagement" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.ParticipantManagementViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon Glyph="&#xEE57;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_PastEvents" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.PastEventsViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon Glyph="&#xF763;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_AddParticipants" helpers:NavigationHelper.NavigateTo="EventManagementSystem.ViewModels.AddParticipantsViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
+                        <FontIcon Glyph="&#xE8FA;" />
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
             </NavigationView.MenuItems>
@@ -104,7 +104,7 @@
                 </DataTemplate>
             </NavigationView.HeaderTemplate>
             <i:Interaction.Behaviors>
-                <behaviors:NavigationViewHeaderBehavior x:ConnectionId='6'
+                <behaviors:NavigationViewHeaderBehavior x:ConnectionId='5'
                                                                                                       >
                     <behaviors:NavigationViewHeaderBehavior.DefaultHeaderTemplate>
                         <DataTemplate>
@@ -118,7 +118,7 @@
                 </behaviors:NavigationViewHeaderBehavior>
             </i:Interaction.Behaviors>
             <Grid Margin="{StaticResource NavigationViewPageContentMargin}">
-                <Frame x:ConnectionId='8' x:Name="NavigationFrame" />
+                <Frame x:ConnectionId='7' x:Name="NavigationFrame" />
             </Grid>
         </NavigationView>
     </Grid>

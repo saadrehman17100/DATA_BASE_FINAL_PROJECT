@@ -29,13 +29,13 @@
     <AppXManifest Include="E:\EventManagementSystem\EventManagementSystem\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-26T15:41:22.753</Modified>
+      <Modified>2023-10-26T16:08:33.216</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\EventManagementSystem\EventManagementSystem\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-26T15:41:22.439</Modified>
+      <Modified>2023-10-26T16:08:32.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EventManagementSystem\EventManagementSystem\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\EventManagementSystem.runtimeconfig.json">
       <PackagePath>EventManagementSystem.runtimeconfig.json</PackagePath>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EventManagementSystem\EventManagementSystem\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\EventManagementSystem.dll">
       <PackagePath>EventManagementSystem.dll</PackagePath>
-      <Modified>2023-10-26T15:39:55.827</Modified>
+      <Modified>2023-10-26T16:03:01.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EventManagementSystem\EventManagementSystem\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EventManagementSystem\EventManagementSystem\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>EventManagementSystem.exe</PackagePath>
-      <Modified>2023-10-26T15:39:55.827</Modified>
+      <Modified>2023-10-26T16:03:01.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EventManagementSystem\EventManagementSystem\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\EventManagementSystem.deps.json">
       <PackagePath>EventManagementSystem.deps.json</PackagePath>

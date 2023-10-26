@@ -20,15 +20,15 @@
 
         <!-- Main Content -->
         <StackPanel Grid.Row="1" Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <StackPanel Margin="0 0 0 10" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Margin="0 0 0 20" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <TextBox Header="Username:" PlaceholderText="Enter username" MinWidth="300"/>
             </StackPanel>
 
-            <StackPanel Margin="0 0 0 10" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Margin="0 0 0 15" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <PasswordBox Header="Password:" PlaceholderText="Enter password" MinWidth="300"/>
             </StackPanel>
 
-            <StackPanel Margin="5 0 0 0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Margin="5 0 0 0" VerticalAlignment="Center">
                 <TextBlock Text="Forgotten Password?" Foreground="#FF1E90FF"/>
             </StackPanel>
 

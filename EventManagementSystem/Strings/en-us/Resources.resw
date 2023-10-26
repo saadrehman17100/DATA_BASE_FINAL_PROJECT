@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AppDisplayName" xml:space="preserve">
-    <value>EventManagementSystem</value>
+    <value>Event Management System</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
     <value>EventManagementSystem</value>
@@ -148,7 +148,7 @@
     <value>About this application</value>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">
-    <value>TODO: Replace with your app description.</value>
+    <value>Created by Saad Rehman(Leader), Ali Shaikh, Ahmed Ali</value>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
     <value>Privacy Statement</value>
@@ -183,7 +183,7 @@
     <value>Event Creation</value>
   </data>
   <data name="Shell_PastEvents.Content" xml:space="preserve">
-    <value>Past Events</value>
+    <value>Events</value>
   </data>
   <data name="Shell_ParticipantManagement.Content" xml:space="preserve">
     <value>Participant Management</value>
